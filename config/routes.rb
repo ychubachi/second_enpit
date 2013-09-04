@@ -1,4 +1,6 @@
 SecondEnpit::Application.routes.draw do
+  resources :books
+
   resources :fish
 
   resources :people
